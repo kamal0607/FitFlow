@@ -20,22 +20,8 @@
                                 <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ep2-o8-JZI">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="1000"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="mKX-50-DZ5">
-                                                <rect key="frame" x="-100" y="0.0" width="653" height="1000"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="1000" id="mSp-kl-Ck7"/>
-                                                </constraints>
-                                            </imageView>
-                                        </subviews>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="848"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="mKX-50-DZ5" secondAttribute="bottom" id="FNU-54-cSI"/>
-                                            <constraint firstItem="mKX-50-DZ5" firstAttribute="top" secondItem="ep2-o8-JZI" secondAttribute="top" id="Ni5-Qv-VeQ"/>
-                                            <constraint firstItem="mKX-50-DZ5" firstAttribute="leading" secondItem="ep2-o8-JZI" secondAttribute="leading" constant="-100" id="qCy-mp-hIA"/>
-                                            <constraint firstAttribute="trailing" secondItem="mKX-50-DZ5" secondAttribute="trailing" constant="-125" id="x1I-bU-DPg"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -65,7 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="login" width="1000" height="1250"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
