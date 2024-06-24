@@ -26,5 +26,12 @@ class Signup_VC: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+    @IBAction func Signup_btn(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreenVC") as! HomeScreenVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
 
 }

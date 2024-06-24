@@ -20,5 +20,10 @@ class Login_VC: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func Login_btn(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreenVC") as! HomeScreenVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 
 }
